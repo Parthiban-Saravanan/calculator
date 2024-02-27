@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.textview {
+    width: 25%;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.equalButton {
+    height: 110px;
+}
+
+/* Colors for different buttons */
+#clear {
+    background-color: #ff6666;
+}
+
+#add {
+    background-color: #66cc99;
+}
+
+#subtract {
+    background-color: #66ccff;
+}
+
+#multiply {
+    background-color: #ffcc66;
+}
+
+#divide {
+    background-color: #ff9966;
+}
+
+#modulus {
+    background-color: #ccccff;
+}
+
+#equal {
+    background-color: #66cccc;
+}
+
+#decimal {
+    background-color: #cccc66;
+}

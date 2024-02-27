@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Calculator</h1>
+    <p id="description">My first calculator.</p>
+    <input id="result" class="textview" name="textview" readonly>
+    <div class="container">
+        <form name="form">
+            <table>
+                <tr>
+                    <td><button id="clear" class="allclearButton">AC</button></td>
+                    <td><button id="add" class="button" value="+">+</button></td>
+                    <td><button id="subtract" class="button" value="-">-</button></td>
+                    <td><button id="multiply" class="button" value="*">x</button></td>
+                </tr>
+                <tr>
+                    <td><button id="1" class="button" value="1">1</button></td>
+                    <td><button id="2" class="button" value="2">2</button></td>
+                    <td><button id="3" class="button" value="3">3</button></td>
+                    <td><button id="divide" class="button" value="/">/</button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" class="button" value="4">4</button></td>
+                    <td><button id="5" class="button" value="5">5</button></td>
+                    <td><button id="6" class="button" value="6">6</button></td>
+                    <td><button id="modulus" class="button" value="%">%</button></td>
+                </tr>
+                <tr>
+                    <td><button id="7" class="button" value="7">7</button></td>
+                    <td><button id="8" class="button" value="8">8</button></td>
+                    <td><button id="9" class="button" value="9">9</button></td>
+                    <td rowspan="2"><button id="equal" class="equalButton">=</button></td>
+                </tr>
+                <tr>
+                    <td><button id="0" class="button" value="0">0</button></td>
+                    <td><button id="decimal" class="button" value=".">.</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
